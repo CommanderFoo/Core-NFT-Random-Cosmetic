@@ -7,11 +7,11 @@
  |_| \_|_|       |_|    |_|  \_\__,_|_| |_|\__,_|\___/|_| |_| |_|  \_____\___/|___/_| |_| |_|\___|\__|_|\___|
 -------------------------------------------------------------------------------------------------------------
 
-The NFT Random Cosmetic component will give players the ability to run though the a trigger and receive a random
+The NFT Random Cosmetic component will give players the ability to run through a trigger and receive a random
 box cosmetic that is attached to the head socket. These cosmetics are NFTs that have been lazy minted on OpenSea.
 
 The NFTs contain attributes for the template type and colors which. You are free to use the NFTs that have been 
-published to OpenSea, or even create your own cosmetics and NFTs.
+published to OpenSea or even create your own cosmetics and NFTs.
 
 https://opensea.io/collection/core-box-cosmetic
 
@@ -39,12 +39,12 @@ The root of the template contains 2 custom properties.
 Generating NFTs
 ===============
 
-A template has been created that is also included with the component that will help generate the NFT data and setup the
-area so you can take a screen shot.
+A template has been created that is also included with the component that will help generate the NFT data and set up the
+area so you can take a screenshot.
 
 Drag the NFT Random Cosmetic Generator into the Hierarchy.
 
-A cosmetic will be spawned and have a random color applied. This allows you take your screen shot, but also grab the NFT
+A cosmetic will be spawned and have a random color applied. This allows you to take your screenshot, but also grab the NFT
 data that will need to be used for the property section on OpenSea when creating the NFT. There are certain bindings set
 up that perform a certain function.
 
