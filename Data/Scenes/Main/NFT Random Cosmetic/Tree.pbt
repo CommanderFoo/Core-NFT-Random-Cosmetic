@@ -53,15 +53,9 @@ Objects {
   ParentId: 8739514334109535679
   UnregisteredParameters {
     Overrides {
-      Name: "cs:CosmeticTokens"
-      AssetReference {
-        Id: 11805976758763778675
-      }
-    }
-    Overrides {
-      Name: "cs:Cosmetics"
-      AssetReference {
-        Id: 16043170263743444173
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 10406063312910560999
       }
     }
   }
@@ -1133,15 +1127,15 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:CosmeticTokens"
-      AssetReference {
-        Id: 11805976758763778675
-      }
-    }
-    Overrides {
       Name: "cs:ProgressBar"
       ObjectReference {
         SelfId: 10291107360974113687
+      }
+    }
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 10406063312910560999
       }
     }
   }
@@ -1334,6 +1328,43 @@ Objects {
   }
   Relevance {
     Value: "mc:eproxyrelevance:medium"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15808866237243971766
+  Name: "README"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10406063312910560999
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2408978566456222400
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

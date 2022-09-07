@@ -52,6 +52,28 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:CosmeticTokens"
+      AssetReference {
+        Id: 11805976758763778675
+      }
+    }
+    Overrides {
+      Name: "cs:Cosmetics"
+      AssetReference {
+        Id: 16043170263743444173
+      }
+    }
+    Overrides {
+      Name: "cs:CosmeticTokens:tooltip"
+      String: "The data table that contains all the cosmetic tokens from OpenSea. These have to be put in a table because of the way collections work for lazy minting."
+    }
+    Overrides {
+      Name: "cs:Cosmetics:tooltip"
+      String: "The cosmetics to spawn on the player."
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
