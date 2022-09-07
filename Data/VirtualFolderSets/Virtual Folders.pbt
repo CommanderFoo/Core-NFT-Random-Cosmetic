@@ -13,7 +13,11 @@ Assets {
       PlatformAssetType: 3
     }
     Folders {
-      VirtualFolderPath: "Misc"
+      VirtualFolderPath: "NFT Random Cosmetic"
+      PlatformAssetType: 31
+    }
+    Folders {
+      VirtualFolderPath: "NFT Random Cosmetic"
       PlatformAssetType: 13
     }
   }

@@ -3,7 +3,7 @@ Assets {
   Name: "Loading Glitchy Hologram - Loading"
   PlatformAssetType: 13
   SerializationVersion: 118
-  VirtualFolderPath: "Misc"
+  VirtualFolderPath: "NFT Random Cosmetic"
   CustomMaterialAsset {
     BaseMaterialId: 5993887030996483998
     ParameterOverrides {

@@ -1,6 +1,6 @@
 Assets {
-  Id: 7120710082930474654
-  Name: "NFTRandomCosmeticClient"
+  Id: 2408978566456222400
+  Name: "README"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
