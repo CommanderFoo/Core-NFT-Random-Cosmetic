@@ -15,7 +15,6 @@ Objects {
     }
   }
   ChildIds: 3400513863618779835
-  ChildIds: 13337947468437166534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,40 +32,6 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 13337947468437166534
-  Name: "NFT Random Cosmetic"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9902670892135859817
-      value {
-        Overrides {
-          Name: "Name"
-          String: "NFT Random Cosmetic"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -286.710693
-            Y: -24.6121826
-            Z: -3.05175781e-05
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15395973242466907600
-    }
-  }
 }
 Objects {
   Id: 3400513863618779835

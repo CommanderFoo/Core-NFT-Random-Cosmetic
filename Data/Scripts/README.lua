@@ -35,6 +35,25 @@ The root of the template contains 2 custom properties.
 
   Each template you want to use should be added to the Cosmetics table.
 
+===============
+Generating NFTs
+===============
+
+A template has been created that is also included with the component that will help generate the NFT data and setup the
+area so you can take a screen shot.
+
+Drag the NFT Random Cosmetic Generator into the Hierarchy.
+
+A cosmetic will be spawned and have a random color applied. This allows you take your screen shot, but also grab the NFT
+data that will need to be used for the property section on OpenSea when creating the NFT. There are certain bindings set
+up that perform a certain function.
+
+- Clicking the Left Mouse Button (Shoot action) will generate a new cosmetic.
+- Clicking the Right Mouse Button (Aim action) will add the current generated cosmetic data to a list.
+- Clicking the Space (Jump action) will print the NFT data for all that was in the list to the event log.
+
+The data printed to the event log can be used on OpenSea to create your NFTs with attributes.
+
 ==========
 Learn More
 ==========
