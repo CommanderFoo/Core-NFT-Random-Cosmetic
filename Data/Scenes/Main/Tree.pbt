@@ -15,7 +15,7 @@ Objects {
     }
   }
   ChildIds: 3400513863618779835
-  ChildIds: 10406063312910560999
+  ChildIds: 13337947468437166534
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,16 +35,9 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10406063312910560999
+  Id: 13337947468437166534
   Name: "NFT Random Cosmetic"
   Transform {
-    Location {
-      X: -286.710693
-      Y: -24.6121826
-      Z: -3.05175781e-05
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -52,48 +45,28 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:CosmeticTokens"
-      AssetReference {
-        Id: 11805976758763778675
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9902670892135859817
+      value {
+        Overrides {
+          Name: "Name"
+          String: "NFT Random Cosmetic"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -286.710693
+            Y: -24.6121826
+            Z: -3.05175781e-05
+          }
+        }
       }
     }
-    Overrides {
-      Name: "cs:Cosmetics"
-      AssetReference {
-        Id: 16043170263743444173
-      }
-    }
-    Overrides {
-      Name: "cs:CosmeticTokens:tooltip"
-      String: "The data table that contains all the cosmetic tokens from OpenSea. These have to be put in a table because of the way collections work for lazy minting."
-    }
-    Overrides {
-      Name: "cs:Cosmetics:tooltip"
-      String: "The cosmetics to spawn on the player."
+    TemplateAsset {
+      Id: 15395973242466907600
     }
   }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "NFT Random Cosmetic"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 3400513863618779835

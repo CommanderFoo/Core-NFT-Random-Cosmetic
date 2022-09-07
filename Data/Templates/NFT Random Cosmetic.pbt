@@ -1,12 +1,12 @@
 Assets {
-  Id: 16668691498612395470
+  Id: 15395973242466907600
   Name: "NFT Random Cosmetic"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1962094221040076048
+      RootId: 9902670892135859817
       Objects {
-        Id: 1962094221040076048
+        Id: 9902670892135859817
         Name: "NFT Random Cosmetic"
         Transform {
           Scale {
@@ -16,8 +16,31 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 8610743321767887518
-        ChildIds: 1556777118814553824
+        ChildIds: 14006469529204305976
+        ChildIds: 191734875353407823
+        ChildIds: 6939031339480999217
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:CosmeticTokens"
+            AssetReference {
+              Id: 11805976758763778675
+            }
+          }
+          Overrides {
+            Name: "cs:Cosmetics"
+            AssetReference {
+              Id: 16043170263743444173
+            }
+          }
+          Overrides {
+            Name: "cs:CosmeticTokens:tooltip"
+            String: "The data table that contains all the cosmetic tokens from OpenSea. These have to be put in a table because of the way collections work for lazy minting."
+          }
+          Overrides {
+            Name: "cs:Cosmetics:tooltip"
+            String: "The cosmetics to spawn on the player."
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -40,7 +63,44 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 8610743321767887518
+        Id: 14006469529204305976
+        Name: "README"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9902670892135859817
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 2408978566456222400
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 191734875353407823
         Name: "Client"
         Transform {
           Location {
@@ -53,11 +113,11 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1962094221040076048
-        ChildIds: 12083153319334652883
-        ChildIds: 17087341883106342024
-        ChildIds: 598309492465678729
-        ChildIds: 11479575399398025355
+        ParentId: 9902670892135859817
+        ChildIds: 15166249269439137794
+        ChildIds: 11021647903377692505
+        ChildIds: 9050884946555411032
+        ChildIds: 16904553356269849434
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -84,7 +144,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 12083153319334652883
+        Id: 15166249269439137794
         Name: "Fantasy Shield 01"
         Transform {
           Location {
@@ -98,8 +158,8 @@ Assets {
             Z: 2.46749663
           }
         }
-        ParentId: 8610743321767887518
-        ChildIds: 648157603489989808
+        ParentId: 191734875353407823
+        ChildIds: 9018488350793394017
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -137,7 +197,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 648157603489989808
+        Id: 9018488350793394017
         Name: "Beam Up Teleport VFX"
         Transform {
           Location {
@@ -153,7 +213,7 @@ Assets {
             Z: 0.405274093
           }
         }
-        ParentId: 12083153319334652883
+        ParentId: 15166249269439137794
         UnregisteredParameters {
           Overrides {
             Name: "bp:Looping"
@@ -211,7 +271,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 17087341883106342024
+        Id: 11021647903377692505
         Name: "Trigger"
         Transform {
           Location {
@@ -225,7 +285,7 @@ Assets {
             Z: 3.04632783
           }
         }
-        ParentId: 8610743321767887518
+        ParentId: 191734875353407823
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -257,7 +317,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 598309492465678729
+        Id: 9050884946555411032
         Name: "NFT_Random_Cosmetic_Client"
         Transform {
           Location {
@@ -270,30 +330,30 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 8610743321767887518
+        ParentId: 191734875353407823
         UnregisteredParameters {
           Overrides {
             Name: "cs:Trigger"
             ObjectReference {
-              SubObjectId: 17087341883106342024
+              SubObjectId: 11021647903377692505
             }
           }
           Overrides {
             Name: "cs:Loading"
             ObjectReference {
-              SubObjectId: 11479575399398025355
+              SubObjectId: 16904553356269849434
             }
           }
           Overrides {
-            Name: "cs:CosmeticTokens"
-            AssetReference {
-              Id: 11805976758763778675
-            }
-          }
-          Overrides {
-            Name: "cs:LoadingBar"
+            Name: "cs:ProgressBar"
             ObjectReference {
-              SubObjectId: 16285982654558912712
+              SubObjectId: 10940864555082638105
+            }
+          }
+          Overrides {
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 9902670892135859817
             }
           }
         }
@@ -320,7 +380,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 11479575399398025355
+        Id: 16904553356269849434
         Name: "Loading"
         Transform {
           Location {
@@ -334,16 +394,16 @@ Assets {
             Z: 0.273682982
           }
         }
-        ParentId: 8610743321767887518
-        ChildIds: 2950830651372560841
-        ChildIds: 13202306004295921168
-        ChildIds: 10803662686446685383
-        ChildIds: 3335437163188634104
-        ChildIds: 7821295788348814674
-        ChildIds: 11906222141609715888
-        ChildIds: 4184343989703521410
-        ChildIds: 1420062166995355548
-        ChildIds: 16285982654558912712
+        ParentId: 191734875353407823
+        ChildIds: 6712008728055497240
+        ChildIds: 14046357712479194561
+        ChildIds: 16156942177203171094
+        ChildIds: 6602126257692500521
+        ChildIds: 1827475887293896323
+        ChildIds: 15054910419875203937
+        ChildIds: 5748680031520233299
+        ChildIds: 7377951393787569229
+        ChildIds: 10940864555082638105
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
         }
@@ -365,7 +425,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 2950830651372560841
+        Id: 6712008728055497240
         Name: "Letter"
         Transform {
           Location {
@@ -381,7 +441,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -466,7 +526,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 13202306004295921168
+        Id: 14046357712479194561
         Name: "Letter"
         Transform {
           Location {
@@ -482,7 +542,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -567,7 +627,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 10803662686446685383
+        Id: 16156942177203171094
         Name: "Letter"
         Transform {
           Location {
@@ -583,7 +643,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -668,7 +728,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 3335437163188634104
+        Id: 6602126257692500521
         Name: "Letter"
         Transform {
           Location {
@@ -684,7 +744,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -769,7 +829,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 7821295788348814674
+        Id: 1827475887293896323
         Name: "Letter"
         Transform {
           Location {
@@ -785,7 +845,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -870,7 +930,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 11906222141609715888
+        Id: 15054910419875203937
         Name: "Letter"
         Transform {
           Location {
@@ -886,7 +946,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -971,7 +1031,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 4184343989703521410
+        Id: 5748680031520233299
         Name: "Letter"
         Transform {
           Location {
@@ -987,7 +1047,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -1072,24 +1132,22 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 1420062166995355548
+        Id: 7377951393787569229
         Name: "Bar"
         Transform {
           Location {
-            X: -17.3551235
-            Y: 6.91878891
-            Z: -49.7063255
+            Z: -50
           }
           Rotation {
             Yaw: -90
           }
           Scale {
-            X: 3.781
-            Y: 0.246009499
-            Z: 0.367
+            X: 4
+            Y: 0.35
+            Z: 0.35
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -1180,24 +1238,23 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 16285982654558912712
-        Name: "Bar"
+        Id: 10940864555082638105
+        Name: "Progress Bar"
         Transform {
           Location {
-            X: -17.3551235
-            Y: 196.115234
-            Z: -49.7063255
+            Y: 200
+            Z: -49.9999809
           }
           Rotation {
             Pitch: -90
             Yaw: -90
           }
           Scale {
-            X: 0.383312613
-            Y: 0.248166084
+            X: 0.35
+            Y: 0.35
           }
         }
-        ParentId: 11479575399398025355
+        ParentId: 16904553356269849434
         UnregisteredParameters {
           Overrides {
             Name: "ma:Font.Bevel:id"
@@ -1260,10 +1317,10 @@ Assets {
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:forceoff"
+          Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1296,7 +1353,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 1556777118814553824
+        Id: 6939031339480999217
         Name: "Server"
         Transform {
           Location {
@@ -1309,8 +1366,8 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1962094221040076048
-        ChildIds: 6580799831895902304
+        ParentId: 9902670892135859817
+        ChildIds: 3352118633796971441
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1332,7 +1389,7 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 6580799831895902304
+        Id: 3352118633796971441
         Name: "NFT_Random_Cosmetic_Server"
         Transform {
           Location {
@@ -1345,18 +1402,12 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1556777118814553824
+        ParentId: 6939031339480999217
         UnregisteredParameters {
           Overrides {
-            Name: "cs:CosmeticTokens"
-            AssetReference {
-              Id: 11805976758763778675
-            }
-          }
-          Overrides {
-            Name: "cs:Cosmetics"
-            AssetReference {
-              Id: 16043170263743444173
+            Name: "cs:Root"
+            ObjectReference {
+              SubObjectId: 9902670892135859817
             }
           }
         }
